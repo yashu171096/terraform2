@@ -21,3 +21,23 @@ variable "internet_cidr"{
 variable "nat_cidr"{
     type = string
 }
+
+variable "internal"{
+    type = bool
+}
+
+variable "lb_type"{
+    type = string
+}
+
+variable "security_groups"{
+    type = list
+}
+
+variable "subnet_ids"{
+    type = list
+}
+
+variable "timeout"{
+    type = number
+}
