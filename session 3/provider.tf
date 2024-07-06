@@ -9,7 +9,7 @@ terraform {
     bucket = "timing-remote-state"
     key    = "timing"
     region = "us-east-1"
-    dynamodb_table = "timing-lock"
+    dynamodb_table = "timings-lock"
   }
 }
 provider "aws" {
